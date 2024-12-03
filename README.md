@@ -30,13 +30,18 @@ Very good program though i just wanted to make this simpler for future me ðŸ™‡â€
         "gameVersion": "1.20.1",
         "loader": "fabric",
         "modrinthUserId": "<User ID>", 
-        // Modrinth -> Profile -> 3 dots -> Copy ID
         "modrinthCollectionId": "<Collection ID>"
-        // On the Collections page everything after "https://modrinth.com/collection/" in the URL is the ID
       }
     ```
 
-- Run the tool with the configuration file as an argument:
+    <b>User ID</b>
+    - Modrinth -> Profile -> 3 dots -> Copy ID
+    <br></br>
+    
+     <b>Collection ID</b>
+    - On the Collections page everything after "https://modrinth.com/collection/" in the URL is the ID
+
+  - Run
 
    ```
    npm run download
